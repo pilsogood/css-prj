@@ -8,7 +8,7 @@
 *  두번째
 *  세번째
 *  네번째
-*  다섯번째 [링크] (http://www.tripgrida.com) : 'trip grida' 
+*  다섯번째 [링크] (http://www.tripgrida.com) : `trip grida`
 
 ## CSS 학습 예제 
 
