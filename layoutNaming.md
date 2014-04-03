@@ -15,7 +15,7 @@
 * #content `중요본문 내용 `
 * #footer `바닥글`
 
-# POPUP Layout Naming 
+# Popup Layout Naming 
 
 * #pop_wrap `팝업 전체 영역`
 * #pop_header `팝업 해더`
