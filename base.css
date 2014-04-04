@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/*============================================
+               Base CSS
+=============================================*/
+
+  html, body {
+    height:100%;
+    margin:0;
+    padding:0;
+  }
+
+  div {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+  }
+
+  body {
+    background: url("/assets/img/trip_bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+  }
+
+  #container {
+    max-width:1170px;
+    margin:0 auto;
+  }
+
+  #header {
+    max-width:1170px;
+    margin:0 auto;
+    background-color: #eee;
+  }
+
+  #footer {
+
+  }
+
+  .box {
+
+    width:350px;
+    height:200px;
+
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* opacity: .3;
+    filter:alpha(opacity:'30'); */
+
+    margin:0 auto;
+    padding:50px;
+  }
+
+  input { 
+
+  }
+
+/* 미디어 태그 */
+@media (min-width: 1200px) {
+  .container {
+    width:1170px;
+  }
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+  .container {
+    width:724px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width:auto;
+  }
+}
